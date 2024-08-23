@@ -1,0 +1,332 @@
+.design {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.design_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.design_content h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+
+}
+
+.design_content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #1d1d1d;
+    margin: 20px 0;
+}
+
+.design_content {
+    display: flex;
+    flex-direction: column;
+    height: 491px;
+    width: 571px;
+    background-color: #E8CCBA;
+    padding: 76px 70px 47px 70px;
+}
+
+.design_img img {
+    height: 491px;
+
+}
+
+.design_content img {
+    width: 152px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.pdpCard .product_wrapper h2 {
+    display: none;
+}
+
+.pdpCard .product button {
+    display: none;
+}
+
+.pdpCard {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.pdpCard h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+.pdpCard .product_grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pdpCard .product_card:nth-of-type(2) {
+    margin-top: 0;
+}
+
+.pdpCard .product_card:nth-of-type(3) {
+    margin-top: 0;
+}
+
+.PDP_hero_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.PDP_hero_img img {
+    width: 700px;
+    height: 600px;
+}
+
+.PDP_hero_content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.PDP_hero_content h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.PDP_hero_content h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.PDP_hero_content input {
+    border-radius: 2px;
+    border: none;
+    background: #fff;
+    padding: 8px 0 8px 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #1d1d1d;
+}
+
+.PDP_hero_content button {
+    width: 80%;
+    clip-path: polygon(10% 5%, 90% 5%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    border: none;
+    padding: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f3e7e0;
+    background-color: #000;
+}
+
+.PDP_modal {
+    position: fixed;
+    background-color: #f3e7e075;
+    inset: 0;
+    transform: translateX(2000px);
+    transition: 2000;
+    z-index: 10;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+
+}
+
+.PDP_open {
+    transform: translateX(0px);
+    transition: 2000;
+}
+
+.PDP_modal_wrapper {
+    height: 100vh;
+
+    background-color: #E8CCBA;
+    padding: 120px 86px 0;
+    overflow-y: auto;
+}
+
+.del {
+    padding: 5px;
+    background-color: red;
+    border: none;
+
+}
+
+.PDP__modal_content img {
+    margin-top: 50px;
+}
+
+.PDP__modal_content h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.PDP__modal_content p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.PDP__modal_content h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.PDP__modal_content h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000;
+    width: 35%;
+    border-bottom: 2px solid #1d1d1d;
+    cursor: pointer;
+
+}
+
+.chek {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f3e7e0;
+    padding: 13px 82px 11px 82px;
+    clip-path: polygon(10% 5%, 90% 5%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    background-color: #1d1d1d;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media(max-width:950px){
+    .PDP_hero_img img{
+        width: 400px;
+        height: 400px;
+    }
+    .PDP_hero_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media(max-width:650px){
+    .PDP_hero_img img{
+        width: 100%;
+        height: 400px;
+    }
+    .PDP_hero_img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .PDP_hero_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .PDP_hero_content{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .pdpCard .product_grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width:1100px){
+    .design_wrapper{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .design_img{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .design_content{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+@media(max-width:500px){
+    .design_img img{
+        height: 350px;
+    }
+    .design_content h2{
+        font-size: 14px;
+    }
+    .design_content p{
+        font-size: 12px;
+    }
+    .design_content{
+        padding: 20px;
+        height: 350px;
+
+    }
+
+}

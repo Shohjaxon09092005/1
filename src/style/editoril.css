@@ -1,0 +1,100 @@
+.editoril {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 205px;
+}
+
+.editoril_content h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 189%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+
+}
+
+.editoril_content p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+    margin-top: 48px;
+}
+
+.btn button {
+    clip-path: polygon(10% 5%, 90% 5%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    background-color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f3e7e0;
+    padding: 13px 95px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 20px;
+    bottom: 74px;
+}
+
+.editoril_content {
+    background-color: #E8CCBA;
+    width: 60%;
+    padding: 66px 117px 58px;
+
+    border-radius: 15px;
+    margin: 0 auto;
+
+
+}
+
+.btn {
+    max-width: 300px;
+    width: 100%;
+    height: 100px;
+
+    margin: 0 auto;
+    position: relative;
+}
+@media(max-width:1100px){
+    .editoril_content{
+        width: 100%;
+        padding: 66px 0;
+    }
+    
+
+}
+@media(max-width:830px){
+    .editoril_content h2 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 189%;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #1d1d1d;
+    
+    }
+    .btn button{
+        padding: 5px 40px;
+        bottom: 84px;
+        left: 65px;
+    }
+    .editoril{
+        padding: 50px 0;
+    }
+
+}

@@ -1,0 +1,129 @@
+.product_grid {
+  display: flex;
+  justify-content: space-between;
+    gap: 40px;
+}
+
+.product_card {
+    position: relative;
+   
+}
+    
+
+
+.product_img {
+    position: absolute;
+    left: 30px;
+    top: 77px;
+}
+
+.product_content {
+    position: absolute;
+    bottom: 30px;
+    left: 52px;
+}
+
+.product_wrapper h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+    width: 40%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.product_card {
+    height:410px;
+}
+
+.product_card:nth-of-type(2) {
+    margin-top: 111px;
+}
+
+.product_card:nth-of-type(3) {
+    margin-top: 111px;
+}
+
+.product_wrapper {
+    padding-top: 60px;
+}
+
+.product_content h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+}
+
+.product_content h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.product_content h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #c09188;
+}
+
+.product button {
+    clip-path: polygon(10% 5%, 90% 5%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    background-color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f3e7e0;
+    padding: 13px 86px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+}
+
+@media(max-width:1160px) {
+    .product_grid {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+    }
+
+   
+
+    .product_wrapper h2 {
+        position: relative;
+        width: 80%;
+    }
+
+    .product_card:nth-of-type(2) {
+        margin-top: 0px;
+    }
+
+    .product_card:nth-of-type(3) {
+        margin-top: 0px;
+    }
+
+}
+

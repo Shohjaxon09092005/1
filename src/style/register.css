@@ -1,0 +1,27 @@
+.reg_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+.reg_form h2{
+    text-align: center;
+    color: blueviolet;
+}
+.reg_form input {
+    padding: 15px 0 15px 15px;
+    border: none;
+    border-radius: 10px;
+
+}
+.reg_form button{
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}

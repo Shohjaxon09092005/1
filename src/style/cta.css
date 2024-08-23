@@ -1,0 +1,143 @@
+.cta_wrapper {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.cta_wrapper img{
+    width: 50%;
+    height: 491px;
+}
+
+.cta_content h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+}
+
+.cta_content p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #1d1d1d;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cta_content button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f3e7e0;
+    clip-path: polygon(10% 5%, 90% 5%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    padding: 13px 50px;
+    border: none;
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+}
+
+.cta_content {
+    background-color: #E8CCBA;
+    padding: 143px 0;
+    width: 50%;
+    border: 1px solid #1d1d1d;
+
+}
+
+.cta {
+    max-width: 1310px;
+    width: 100%;
+    margin: 0px auto;
+    border: 1px solid #1d1d1d;
+    padding: 37px 84px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.img1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+  
+  
+}
+
+.img2{
+    position: absolute;
+    right: 0;top: 0;
+}
+
+
+.img3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+
+
+}
+
+.img4 {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+@media(max-width:1060px){
+    .cta_wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cta_wrapper img{
+        width: 100%;
+        height: 400px;
+    }
+    .cta_content{
+        width: 100%;
+        padding: 100px 0;
+    }
+}
+@media(max-width:600px){
+    .cta_wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cta_wrapper img{
+        width: 100%;
+        height: 250px;
+    }
+    .cta_content{
+        width: 100%;
+        padding:30px 0;
+    }
+    .cta{
+        padding: 20px;
+    }
+    .img1, .img2, .img3, .img4{
+        display: none;
+    }
+    .cta_content h2{
+        font-size: 18px;
+    }
+    .cta_content p{
+        font-size: 14px;
+    }
+    .cta_content button{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,28 @@
+.sign_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+.sign_form h1{
+    text-align: center;
+    color: blueviolet;
+}
+.sign_form input {
+    padding: 15px 0 15px 15px;
+    border: none;
+    border-radius: 10px;
+
+}
+.sign_form button{
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
